@@ -1,0 +1,16 @@
+{
+    "name": "francois/hello-composer",
+    "description": "Test packagist",
+    "type": "package",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "francois\\HelloComposer\\"= "src/"
+        }
+    }
+
+}
